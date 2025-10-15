@@ -34,21 +34,13 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col gap-3 md:gap-4 pt-4 px-4 md:px-0">
-              <Button 
-                variant="cta" 
+              <Button
+                variant="cta"
                 size="xl"
                 onClick={scrollToOffer}
                 className="shadow-elegant w-full md:w-auto"
               >
                 Garantir Meu Acesso
-              </Button>
-              <Button 
-                variant="cta-outline" 
-                size="xl"
-                onClick={() => document.getElementById("benefits")?.scrollIntoView({ behavior: "smooth" })}
-                className="w-full md:w-auto"
-              >
-                Saber Mais
               </Button>
             </div>
           </div>
