@@ -35,7 +35,7 @@ const Product = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            O que você recebe <span className="text-primary">hoje</span>
+            O que você recebe <span className="text-foreground">hoje</span>
           </h2>
         </div>
         
@@ -74,17 +74,17 @@ const Product = () => {
         </div>
         
         <div className="mt-16 text-center max-w-3xl mx-auto">
-          <div className="inline-block bg-secondary/10 px-8 py-6 rounded-2xl border-2 border-primary/20">
+          <div className="inline-block bg-secondary/10 px-8 py-6 rounded-2xl border-2 border-accent">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Isso <span className="text-primary">NÃO</span> é conteúdo básico.
+              Isso <span className="text-accent">NÃO</span> é conteúdo básico.
             </h3>
-            <div className="space-y-2 text-lg text-muted-foreground">
+            <div className="space-y-2 text-lg text-foreground/80">
               <p>Não é "como calibrar pneu".</p>
               <p>Não é "empoderamento de Instagram".</p>
               <p>Não é teoria genérica copiada de manual.</p>
             </div>
             <p className="text-xl font-bold text-foreground mt-6">
-              É <span className="text-primary">diagnóstico traduzido</span> por quem domina a técnica de verdade.
+              É <span className="text-foreground">diagnóstico traduzido</span> por quem domina a técnica de verdade.
             </p>
           </div>
         </div>

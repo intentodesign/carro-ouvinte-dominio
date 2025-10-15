@@ -25,7 +25,7 @@ const ForWhom = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Para quem é <span className="text-primary">este guia?</span>
+            Para quem é <span className="text-foreground">este guia?</span>
           </h2>
         </div>
         

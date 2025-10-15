@@ -10,15 +10,15 @@ const CTA = () => {
             <AlertTriangle className="w-16 h-16 text-primary" />
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground leading-tight">
-            Saia da zona de risco <span className="text-primary">agora</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
+            Saia da zona de risco <span className="text-accent">agora</span>
           </h2>
           
-          <div className="space-y-6 text-xl md:text-2xl text-primary-foreground/90 leading-relaxed">
+          <div className="space-y-6 text-xl md:text-2xl text-foreground leading-relaxed">
             <p>
               Seu carro está dando sinais.
             </p>
-            <p className="text-2xl md:text-3xl font-semibold text-primary-foreground">
+            <p className="text-2xl md:text-3xl font-semibold text-foreground">
               A questão é: você vai ouvir a tempo de economizar — <br />
               ou vai esperar o prejuízo aparecer?
             </p>
@@ -35,7 +35,7 @@ const CTA = () => {
             </Button>
           </div>
           
-          <p className="text-sm text-primary-foreground/60 italic pt-4">
+          <p className="text-sm text-foreground/70 italic pt-4">
             Oferta válida apenas para os primeiros compradores. <br />
             Preço promocional pode encerrar a qualquer momento.
           </p>

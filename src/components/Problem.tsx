@@ -26,7 +26,7 @@ const Problem = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Seu carro está falando. <br />
-            <span className="text-primary">Você está ouvindo?</span>
+            <span className="text-foreground">Você está ouvindo?</span>
           </h2>
         </div>
         
@@ -49,10 +49,10 @@ const Problem = () => {
         
         <div className="mt-16 text-center space-y-6">
           <p className="text-xl md:text-2xl text-foreground max-w-3xl mx-auto leading-relaxed">
-            Você sai da oficina <span className="font-bold text-primary">sem entender</span> o que foi feito.
+            Você sai da oficina <span className="font-bold text-foreground">sem entender</span> o que foi feito.
           </p>
           <p className="text-xl md:text-2xl text-foreground max-w-3xl mx-auto leading-relaxed">
-            Você aprova o serviço <span className="font-bold text-primary">sem saber</span> se era realmente necessário.
+            Você aprova o serviço <span className="font-bold text-foreground">sem saber</span> se era realmente necessário.
           </p>
           <p className="text-2xl md:text-3xl text-foreground max-w-3xl mx-auto leading-relaxed font-semibold mt-8">
             Você paga. E torce para não ter sido enganado(a).
